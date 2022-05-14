@@ -1,3 +1,4 @@
+/* to find the largest parimeter we have to find the sum of largest size and compare with the largest element in the array */
 class Solution {
 public:
     int largestPerimeter(vector<int>& nums) {
