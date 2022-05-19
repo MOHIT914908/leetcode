@@ -1,16 +1,17 @@
 class Solution {
 public:
     int fib(int n) {
-       if(n==0)
-       {
-           return 0;
-       }
-        else if(n==1)
+    if(n<2)
+    {
+        return n;
+    }
+    int a=0,b=1,sum=0;
+     for(int i=1;i<n;i++)
         {
-            return 1;
+            sum=a+b;
+            a=b;
+            b=sum;
         }
-       else{ 
-       return fib(n-1)+fib(n-2);
-       }
+        return sum;
     }
 };
