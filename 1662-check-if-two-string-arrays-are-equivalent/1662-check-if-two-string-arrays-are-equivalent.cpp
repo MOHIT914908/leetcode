@@ -10,7 +10,7 @@ public:
         {
             s2+=word2[i];
         }
-        if(s.compare(s2)==0)
+        if(s==s2)
         {
             return true;
         }
