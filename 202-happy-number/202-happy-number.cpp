@@ -11,7 +11,7 @@ public:
         return sum;
     }
     bool isHappy(int n) {
-        while(n!=1 && n!=4)
+        while(n!=1 && n!=4)//for time limit
         {
             n=getnum(n);
         }
