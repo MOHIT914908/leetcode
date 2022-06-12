@@ -14,7 +14,7 @@ public:
           }
       }
         if(count%2==0)
-        {
+        { 
             return 1;
         }
         else{
