@@ -6,9 +6,7 @@ public:
         for(int i=0;i<gain.size();i++)
         {
             p+=gain[i];
-            if(p>m){
-                m=p;
-            }
+           m=max(p,m);
         }
         return m;
     }
